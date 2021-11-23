@@ -112,6 +112,10 @@ header {
 
 /* nav-section */
 
+.logo {
+  padding: 32px 0;
+}
+
 .section-menu {
   display: flex;
   justify-content: flex-start;
@@ -121,11 +125,7 @@ header {
 }
 
 .section-menu .item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   margin-right: 50px;
-  padding: 32px 0;
 
   font-weight: 500;
   font-size: 14px;
@@ -137,17 +137,20 @@ header {
   margin-right: 0;
 }
 
-.section-menu .item .link.current {
+.finger {
+  padding: 32px 0;
+}
+
+a.current.link.finger {
   color: var(--accent-color);
 }
 
-.section-menu .item .link:hover,
-.section-menu .item .link:focus {
-  cursor: pointer;
+.section-menu .item .finger:hover,
+.section-menu .item .finger:focus {
   color: var(--accent-color);
 }
 
-.section-menu .item .link {
+.section-menu .item .finger {
   color: var(--primary-text-color);
 }
 
@@ -168,9 +171,18 @@ header {
   margin-right: 0;
 }
 
-.section-contacts .item {
-  padding-top: 32px;
-  padding-bottom: 32px;
+.contact {
+  padding: 32px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
 }
 
 .icon-mail {
@@ -187,21 +199,6 @@ header {
   cursor: pointer;
 }
 
-.section-contacts-mail,
-.section-contacts-nomer {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
-.section-contacts-mail:hover,
-.section-contacts-mail:focus {
-  color: var(--accent-color);
-  cursor: pointer;
-}
-
 .icon-mobile {
   display: inline-block;
   justify-content: flex-start;
@@ -213,12 +210,6 @@ header {
 .icon-mobile:hover,
 .icon-mobile:focus {
   fill: var(--accent-color);
-  cursor: pointer;
-}
-
-.section-contacts-nomer:hover,
-.section-contacts-nomer:focus {
-  color: var(--accent-color);
   cursor: pointer;
 }
 
