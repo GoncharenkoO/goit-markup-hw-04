@@ -43,13 +43,13 @@
         <ul class="section-contacts">
           <li class="item">
             <a class="section-contacts-mail" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+              ><svg class="icon-mail" width="16" height="12"><use href=./images/symbol-defs.svg#icon-mail></use>
+            </svg>info@devstudio.com</a>
           </li>
           <li class="item">
             <a class="section-contacts-nomer" href="tel:+38 096 111 11 11"
-              >+38 096 111 11 11</a
-            >
+              ><svg class="icon-mobile" width="16" height="12"><use href=./images/symbol-defs.svg#icon-mobile></use>
+            </svg>+38 096 111 11 11</a>
           </li>
         </ul>
       </div>
@@ -195,25 +195,60 @@
 
     <!-- Footer container -->
     <footer class="footer">
-      <div class="container footer-container">
-        <a class="logo" href="./index.html" class="footer"
-          >Web<span class="footer">Studio</span></a
-        >
-        <address class="contacts">
-          <ul class="address">
-            <li class="address item">
-              <p clas="address">г. Киев, пр-т Леси Украинки, 26</p>
+      <div class="section-info">
+        <div class="footer-contacts">
+          <a class="logo" href="./index.html" class="footer"
+            >Web<span class="footer">Studio</span></a
+          >
+          <address class="contacts">
+            <ul class="address">
+              <li class="address item">
+                <p clas="address">г. Киев, пр-т Леси Украинки, 26</p>
+              </li>
+              <li class="address mail">
+                <a class="mail" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="address tel">
+                <a class="tel" href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="social-list">
+          <p class="footer-text">ПРИСОЕДИНЯЙТЕСЬ</p>
+          <ul class="footer-social-links">
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+              </a>
             </li>
-            <li class="address mail">
-              <a class="mail" href="mailto:info@example.com"
-                >info@example.com</a
-              >
-            </li>
-            <li class="address tel">
-              <a class="tel" href="tel:+38 099 111 11 11">+38 099 111 11 11</a>
-            </li>
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+              </a>  
+            </li> 
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+              </a>  
+            </li> 
+            <li class="footer-social-item">
+              <a class="footer-social-link" href="">
+                  <svg class="footer-social-icon" width="20" height="20">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+              </a>  
+            </li> 
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>

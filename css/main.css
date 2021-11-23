@@ -173,6 +173,20 @@ header {
   padding-bottom: 32px;
 }
 
+.icon-mail {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 10px;
+  fill: var(--title-text-color);
+}
+
+.icon-mail:hover,
+.icon-mail:focus {
+  fill: var(--accent-color);
+  cursor: pointer;
+}
+
 .section-contacts-mail,
 .section-contacts-nomer {
   color: var(--title-text-color);
@@ -188,6 +202,20 @@ header {
   cursor: pointer;
 }
 
+.icon-mobile {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 10px;
+  fill: var(--title-text-color);
+}
+
+.icon-mobile:hover,
+.icon-mobile:focus {
+  fill: var(--accent-color);
+  cursor: pointer;
+}
+
 .section-contacts-nomer:hover,
 .section-contacts-nomer:focus {
   color: var(--accent-color);
@@ -195,10 +223,6 @@ header {
 }
 
 /* Footer */
-
-.footer-container {
-  display: block;
-}
 
 .footer {
   padding-top: 60px;
@@ -212,6 +236,15 @@ header {
 
   color: var(--accent-color);
   background: #2f303a;
+}
+
+.section-info {
+  display: flex;
+  align-items: baseline;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0 15px;
 }
 
 .footer span {
@@ -232,6 +265,7 @@ header {
   font-style: normal;
   display: block;
   margin-top: 20px;
+  margin-right: 70px;
 }
 
 .contacts .address {
@@ -280,4 +314,57 @@ header {
 .contacts .tel:hover,
 .contacts .tel:focus {
   cursor: pointer;
+}
+
+/* Footer social links */
+
+.footer-text {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 72px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--primary-white-color);
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-item {
+  margin-right: 10px;
+}
+
+.footer-social-item:last-child {
+  margin-right: 0;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-icon {
+  fill: #afb1b8;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.footer-social-link:hover .footer-social-icon,
+.footer-social-link:focus .footer-social-icon {
+  fill: var(--primary-white-color);
 }
