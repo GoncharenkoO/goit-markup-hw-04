@@ -347,7 +347,7 @@ a.current.link.finger {
 }
 
 .footer-social-icon {
-  fill: #afb1b8;
+  fill: var(--primary-white-color);
 }
 
 .footer-social-link:hover,
