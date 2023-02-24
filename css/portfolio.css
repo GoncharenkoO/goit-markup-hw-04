@@ -1,3 +1,4 @@
+/****************** Page Filter *******************/
 .section.portfolio {
 	padding-top: 96px;
 }
@@ -37,6 +38,7 @@
 	box-shadow: var(--btn-filter);
 }
 
+/****************** Page Projects *******************/
 .projects-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -50,6 +52,10 @@
 }
 .projects-item:not(:nth-last-child(-n + 3)) {
 	margin-bottom: var(--card-gap);
+}
+.projects-item:hover,
+.projects-item:focus {
+	box-shadow: var(--team-shadow);
 }
 .projects-content {
 	padding: 32px 16px;
