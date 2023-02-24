@@ -57,11 +57,34 @@
 	align-items: center;
 }
 .advantages-item {
-	width: 264px;
+	max-width: 264px;
 	margin-right: var(--card-gap);
 }
 .advantages-item:last-child {
 	margin-right: 0;
+}
+.advantages-item::before {
+	display: block;
+	content: "";
+	padding: 24px 100px;
+	margin-bottom: 8px;
+	height: 112px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: var(--text-cloud-color);
+	border-radius: var(--radius);
+}
+.icon-antenna::before {
+ 	background-image: url(../images/advantages/antenna.svg);
+}
+.icon-clock::before {
+	background-image: url(../images/advantages/clock.svg);
+}
+.icon-diagram::before {
+	background-image: url(../images/advantages/diagram.svg);
+}
+.icon-astronaut::before {
+	background-image: url(../images/advantages/astronaut.svg);
 }
 .advantages-list .title {
 	margin-bottom: 8px;
