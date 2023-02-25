@@ -62,25 +62,22 @@
 	margin-bottom: 8px;
 	height: 112px;
 	background-repeat: no-repeat;
+	background-size: 64px 64px;
 	background-position: center center;
 	background-color: var(--text-cloud-color);
 	border-radius: var(--radius);
 }
 .icon-antenna::before {
 	background-image: url(../images/advantages/antenna.svg);
-  background-size: 64px 64px;
 }
 .icon-clock::before {
 	background-image: url(../images/advantages/clock.svg);
-    background-size: 64px 64px;
 }
 .icon-diagram::before {
 	background-image: url(../images/advantages/diagram.svg);
-    background-size: 64px 64px;
 }
 .icon-astronaut::before {
 	background-image: url(../images/advantages/astronaut.svg);
-    background-size: 64px 64px;
 }
 .advantages-list .title {
 	margin-bottom: 8px;
@@ -171,7 +168,7 @@
 	align-items: center;
 	width: 168px;
 	height: 88px;
-  border: 1px solid currentColor;
+	border: 1px solid currentColor;
 	border-radius: var(--radius);
 	color: var(--slate-color);
 }
