@@ -45,7 +45,6 @@
 }
 .projects-item {
 	border-radius: var(--radius);
-	overflow: hidden;
 }
 .projects-item:not(:nth-child(3n)) {
 	margin-right: var(--card-gap);
@@ -53,8 +52,11 @@
 .projects-item:not(:nth-last-child(-n + 3)) {
 	margin-bottom: var(--card-gap);
 }
-.projects-item:hover,
-.projects-item:focus {
+.projects-link {
+  display: block;
+}
+.projects-link:hover,
+.projects-link:focus {
 	box-shadow: var(--team-shadow);
 }
 .projects-content {
