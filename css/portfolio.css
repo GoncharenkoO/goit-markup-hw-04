@@ -32,7 +32,7 @@
 }
 .button:hover,
 .button:focus {
-	border: transparent;
+	border-color: transparent;
 	color: var(--main-white-color);
 	background-color: var(--ocean-color);
 	box-shadow: var(--btn-filter);
